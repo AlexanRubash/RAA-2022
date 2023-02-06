@@ -1,0 +1,230 @@
+“ест Ѕез ошибок
+---- ѕротокол ------- 
+ ƒата: 22.01.2023 19:24:26
+---- ѕараметры -------
+-log: text.txt.log
+-out: ../RAAGeneration/asm.asm
+-in: text.txt
+---- »сходные данные -----
+ оличество символов: 1917
+ѕроигнорировано:     0
+ оличество строк:    113
+
+Ћексический анализ завершЄн без ошибок
+
+01 ul<0>
+02 t
+02 f
+02 i<1>
+02 (
+02 t
+02 i<2>
+02 ,
+02 t
+02 i<3>
+02 )
+03 {
+04 d
+04 t
+04 i<4>
+04 ;
+05 c
+05 (
+05 i<3>
+05 o<5>
+05 i<2>
+05 )
+05 {
+06 i<4>
+06 =
+06 i<3>
+06 ;
+07 }
+07 e
+07 {
+08 i<4>
+08 =
+08 i<2>
+08 ;
+09 }
+10 ri<4>;
+11 }
+13 tfi<6>(ti<7>,ti<8>)
+14 {
+15 dti<9>;
+16 c(i<8>o<10>i<7>){
+17 i<9>=i<8>;
+18 }e{
+19 i<9>=i<7>;
+20 }
+21 ri<9>;
+22 }
+24 tfi<11>(ti<12>,ti<13>)
+25 {
+26 dti<14>;
+27 c(i<12>o<15>i<13>){
+28 i<14>=l<16>;
+29 }
+30 e{
+31 i<14>=l<17>;
+32 }
+33 ri<14>;
+34 }
+36 tfi<18>(ti<19>,ti<20>)
+37 {
+38 dti<21>;
+39 c(i<19>o<22>i<20>){
+40 i<21>=l<23>;
+41 }
+42 e{
+43 i<21>=l<24>;
+44 }
+45 ri<21>;
+46 }
+48 m
+49 {
+51 dti<25>;
+52 dti<26>;
+53 dti<27>;
+54 dti<28>;
+55 dti<29>;
+56 dti<30>;
+57 dti<31>;
+58 dti<32>;
+59 dti<33>;
+60 i<31>=l<34>;
+61 i<29>=l<35>+l<36>;
+62 p(i<31>);
+63 y(l<38>)
+64 {
+65 i<31>=i<31>-l<35>;
+66 }
+67 p(l<40>);
+68 p(l<42>);
+69 p(i<31>);
+70 p(i<29>);
+72 i<25>=l<45>;
+73 i<26>=l<46>;
+74 p(l<48>);
+75 p(i<25>);
+76 p(i<26>);
+78 p(l<52>);
+79 i<27>=l<53>;
+80 i<28>=l<54>;
+82 i<33>=a(i<27>,i<28>);
+84 c(i<33>o<56>l<35>){
+85 p(l<58>);
+86 i<32>=i<1>(i<30>,i<31>);
+88 }e{
+89 p(l<60>);
+90 i<32>=i<6>(i<30>,i<31>);
+91 }
+92 p(i<32>);
+93 i<30>=i<29>;
+94 c(i<29>o<62>i<30>){
+95 i<30>=b(i<31>,l<38>);
+96 p(i<30>);
+97 }
+98 p(l<66>);
+99 i<25>=i<11>(i<30>,l<67>);
+100 p(i<25>);
+102 p(l<70>);
+103 i<29>=l<71>;
+104 i<26>=i<18>(i<29>,l<71>);
+105 p(i<26>);
+107 p(l<74>);
+108 i<29>=l<75>;
+109 i<26>=i<18>(i<29>,l<71>);
+110 p(i<26>);
+111 p(l<78>);
+112 rl<79>;
+113 }
+
+є > »дентификатор > ќбласть видимости > “ип данных > “ип идентификатора > »ндекс в “Ћ > «начение
+
+0 > L1 > L1 > string > литерал > 1 > [56]"C:/Users/rubas/Desktop/RAA-2022-main/RAAlib/Debug/RAAlib"
+1 > min > min > integer > функци€ > 4 > нет значени€
+2 > a > mina > integer > параметр > 7 > нет значени€
+3 > b > minb > integer > параметр > 10 > нет значени€
+4 > res > minres > integer > переменна€ > 15 > 0
+5 > < > minres > оператор > 20 > нет значени€
+6 > max > max > integer > функци€ > 42 > нет значени€
+7 > a > maxa > integer > параметр > 45 > нет значени€
+8 > b > maxb > integer > параметр > 48 > нет значени€
+9 > res > maxres > integer > переменна€ > 53 > 0
+10 > > > maxres > оператор > 58 > нет значени€
+11 > more > more > string > функци€ > 80 > нет значени€
+12 > a > morea > integer > параметр > 83 > нет значени€
+13 > b > moreb > integer > параметр > 86 > нет значени€
+14 > res > moreres > string > переменна€ > 91 > [0]""
+15 > > > moreres > оператор > 96 > нет значени€
+16 > L2 > L2 > string > литерал > 102 > [39]"The first value is more than the second"
+17 > L3 > L3 > string > литерал > 109 > [39]"The second value is more than the first"
+18 > eqormin > eqormin > string > функци€ > 118 > нет значени€
+19 > a > eqormina > integer > параметр > 121 > нет значени€
+20 > b > eqorminb > integer > параметр > 124 > нет значени€
+21 > res > eqorminres > string > переменна€ > 129 > [0]""
+22 > <= > eqorminres > оператор > 134 > нет значени€
+23 > L4 > L4 > string > литерал > 140 > [61]"The first and second value are equal or the second value more"
+24 > L5 > L5 > string > литерал > 147 > [40]"The first and second value are not equal"
+25 > str1 > mainstr1 > string > переменна€ > 158 > [0]""
+26 > str2 > mainstr2 > string > переменна€ > 162 > [0]""
+27 > str3 > mainstr3 > string > переменна€ > 166 > [0]""
+28 > str4 > mainstr4 > string > переменна€ > 170 > [0]""
+29 > a > maina > integer > переменна€ > 174 > 0
+30 > b > mainb > integer > переменна€ > 178 > 0
+31 > c > mainc > integer > переменна€ > 182 > 0
+32 > d > maind > integer > переменна€ > 186 > 0
+33 > res > mainres > integer > переменна€ > 190 > 0
+34 > L6 > L6 > integer > литерал > 194 > 16
+35 > L7 > L7 > integer > литерал > 198 > 1
+36 > L8 > L8 > integer > литерал > 200 > 8
+37 > print > print > integer > unknown > 202 > нет значени€
+38 > L9 > L9 > integer > литерал > 209 > 2
+39 > print > print > integer > unknown > 219 > нет значени€
+40 > L10 > L10 > string > литерал > 221 > [12]"var ushort a"
+41 > print > print > string > unknown > 224 > нет значени€
+42 > L11 > L11 > string > литерал > 226 > [25]"Output of values c and a:"
+43 > print > print > string > unknown > 229 > нет значени€
+44 > print > print > string > unknown > 234 > нет значени€
+45 > L12 > L12 > string > литерал > 241 > [2]"hi"
+46 > L13 > L13 > string > литерал > 245 > [11]"Hello world"
+47 > print > print > string > unknown > 247 > нет значени€
+48 > L14 > L14 > string > литерал > 249 > [29]"Output of line str1 and str2:"
+49 > print > print > string > unknown > 252 > нет значени€
+50 > print > print > string > unknown > 257 > нет значени€
+51 > print > print > string > unknown > 262 > нет значени€
+52 > L15 > L15 > string > литерал > 264 > [46]"lexicographic string comparison str3 and str4:"
+53 > L16 > L16 > string > литерал > 269 > [5]"hello"
+54 > L17 > L17 > string > литерал > 273 > [6]"hello "
+55 > compare > maincompare > string > unknown > 277 > нет значени€
+56 > == > maincompare > оператор > 287 > нет значени€
+57 > print > print > string > unknown > 291 > нет значени€
+58 > L18 > L18 > string > литерал > 293 > [29]"accessing the function ~min~:"
+59 > print > print > string > unknown > 308 > нет значени€
+60 > L19 > L19 > string > литерал > 310 > [29]"accessing the function ~max~:"
+61 > print > print > string > unknown > 323 > нет значени€
+62 > >= > print > оператор > 335 > нет значени€
+63 > pow > mainpow > string > unknown > 341 > нет значени€
+64 > print > print > string > unknown > 348 > нет значени€
+65 > print > print > string > unknown > 354 > нет значени€
+66 > L20 > L20 > string > литерал > 356 > [30]"accessing the function ~more~:"
+67 > L21 > L21 > integer > литерал > 365 > 300
+68 > print > print > integer > unknown > 368 > нет значени€
+69 > print > print > integer > unknown > 373 > нет значени€
+70 > L22 > L22 > string > литерал > 375 > [51]"accessing the function ~equal~, when a=111(binary):"
+71 > L23 > L23 > integer > литерал > 380 > 7
+72 > print > print > integer > unknown > 391 > нет значени€
+73 > print > print > integer > unknown > 396 > нет значени€
+74 > L24 > L24 > string > литерал > 398 > [61]"accessing the function ~equal~, when a!=111(binary) and <111:"
+75 > L25 > L25 > integer > литерал > 403 > 3
+76 > print > print > integer > unknown > 414 > нет значени€
+77 > print > print > integer > unknown > 419 > нет значени€
+78 > L26 > L26 > string > литерал > 421 > [17]"I love you, Artur"
+79 > L27 > L27 > integer > литерал > 425 > 0
+****************************************
+ оличество идентификаторов: 74
+—интаксический анализ завершЄн без ошибок
+
+—емантический анализ завершЄн без ошибок
+
